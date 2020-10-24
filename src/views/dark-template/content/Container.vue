@@ -90,7 +90,7 @@
                 round
                 outline
                 light
-                @click="downloadWithAxios(publicPath('/docs/Resume  .pdf'),'RESUME_NIKUL_PATEL.pdf')"
+                @click="downloadWithAxios(publicPath('/docs/Resume.pdf'),'RESUME_NIKUL_PATEL.pdf')"
               >
                 <v-icon
                   light
@@ -231,7 +231,7 @@ export default {
     },
     downloadWithAxios (url, title) {
       axios({
-        method      : 'get',
+        method      : 'post',
         url,
         responseType: 'arraybuffer',
       }).then((response) => {

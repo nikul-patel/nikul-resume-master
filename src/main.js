@@ -6,9 +6,9 @@ import '@/components'
 import './registerServiceWorker'
 import store from './store'
 
-Vue.config.productionTip = true
-Vue.config.devtools      = true
-Vue.config.debug         = true
+Vue.config.productionTip = false
+Vue.config.devtools      = false
+Vue.config.debug         = false
 Vue.config.silent        = true
 Vue.use(helper)
 new Vue({
