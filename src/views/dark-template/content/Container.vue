@@ -236,7 +236,7 @@ export default {
         responseType: 'arraybuffer',
       }).then((response) => {
         this.forceFileDownload(response, title)
-      }).catch(() => alert('error occured'))
+      }).catch(() => alert('Unable to download the resume'))
     },
   },
 }

@@ -90,7 +90,7 @@ export default {
             {
               name: 'Website',
               icon: 'mdi-web',
-              text: 'nikulpatel.com',
+              text: 'nikulpatel.netlify.app',
             },
             {
               name: 'Birth Date',
