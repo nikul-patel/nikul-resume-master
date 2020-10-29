@@ -2,7 +2,7 @@
 
 1. Clone this repository.
 ```
-git clone https://gitlab.com/nikul-patel/nikul-resume-master.git
+git clone https://github.com/nikul-patel/nikul-resume-master.git
 ```
 
 2. Go to the cloned directory (e.g. `cd nikul-master-resume`).

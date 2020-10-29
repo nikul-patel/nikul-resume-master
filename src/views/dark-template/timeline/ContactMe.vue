@@ -5,7 +5,10 @@
   >
     <v-card-text class="text-xs-center">
       <content-section title="Contact Me">
-        <form>
+        <form
+          netlify
+          netlify-honeypot="bot-field"
+        >
           <v-container>
             <v-layout wrap>
               <v-flex
@@ -40,15 +43,15 @@
                 />
               </v-flex>
               <v-flex
-                      md12
-                      sm12
-                      xs12
-                      pa-2
+                md12
+                sm12
+                xs12
+                pa-2
               >
                 <v-text-field
-                        v-model="subject"
-                        label="Subject"
-                        required
+                  v-model="subject"
+                  label="Subject"
+                  required
                 />
               </v-flex>
               <v-flex
@@ -67,13 +70,13 @@
                 />
               </v-flex>
               <v-flex
-                      key="captcha"
-                      md12
-                      sm12
-                      xs12
+                key="captcha"
+                md12
+                sm12
+                xs12
               >
-<!--                <vue-recaptcha sitekey="6Lf5HNIZAAAAAEIRzQhYchrSaN5-IDIPj0CAZM6r" >-->
-<!--                </vue-recaptcha>-->
+                <!--                <vue-recaptcha sitekey="6Lf5HNIZAAAAAEIRzQhYchrSaN5-IDIPj0CAZM6r" >-->
+                <!--                </vue-recaptcha>-->
               </v-flex>
               <v-flex
                 key="submit"
@@ -87,7 +90,7 @@
                   class="left"
                   @click="submit"
                 >
-                  <v-icon small  >
+                  <v-icon small>
                     mdi-email-outline
                   </v-icon>
                   &nbsp;Send Message
