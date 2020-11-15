@@ -70,15 +70,6 @@
                 />
               </v-flex>
               <v-flex
-                key="captcha"
-                md12
-                sm12
-                xs12
-              >
-                <!--                <vue-recaptcha sitekey="6Lf5HNIZAAAAAEIRzQhYchrSaN5-IDIPj0CAZM6r" >-->
-                <!--                </vue-recaptcha>-->
-              </v-flex>
-              <v-flex
                 key="submit"
                 md12
                 sm12
@@ -106,10 +97,8 @@
 
 <script>
 import ContentSection from '@/views/dark-template/content/Section'
-// import VueContentLoading, { VclCode } from 'vue-content-loading'
 import { validationMixin } from 'vuelidate'
 import { required, maxLength, email } from 'vuelidate/lib/validators'
-// import VueRecaptcha from 'vue-recaptcha'
 
 export default {
   name       : 'ContactMe',

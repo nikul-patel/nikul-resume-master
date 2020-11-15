@@ -181,6 +181,16 @@ export default {
         icon : 'mdi-vuejs',
         value: 82,
       },
+      {
+        title: 'CodeIgniter',
+        icon : 'mdi-fire',
+        value: 82,
+      },
+      {
+        title: 'JQuery',
+        icon : 'mdi-jquery',
+        value: 80,
+      },
       { divider: true },
       {
         title: 'Ubuntu Server',

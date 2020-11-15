@@ -8,15 +8,6 @@
         id="timeline"
         :title="'My Experiences'"
       >
-       <!-- <template slot="actions">
-          <div>
-            <v-switch
-              v-model="detailed"
-              :label="detailed ? 'Detailed' : 'Summary'"
-            />
-          </div>
-        </template>-->
-
         <v-timeline
           dense
         >
