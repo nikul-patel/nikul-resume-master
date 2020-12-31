@@ -44,7 +44,6 @@
     "node-sass": "^4.14.1",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.3",
-    "skeleton-loader": "^2.0.0",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "^0.5.0",
