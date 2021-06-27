@@ -127,10 +127,10 @@ export default {
                 <ul>
                   <li> Determining the structure and design of web pages and ensuring user experience determines design choices.</li>
                   <li> Designing user interactions on web pages.</li>
+                  <li> Implement REST API.</li>
                   <li> Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</li>
                   <li> Design, develop, and implement database systems based on client requirements.</li>
                   <li> Self-directed and self-motivated with the ability to take charge or play a supporting role</li>
-                  <li> Implement REST API.</li>
                 </ul>
                 `,
         /* eslint-enable no-useless-escape */
@@ -145,13 +145,31 @@ export default {
                 <ul>
                   <li> Implement well designed, testable, efficient, and robust code by using best software development general practice.</li>
                   <li> Designing layout/user interface by using standard HTML/CSS/JS practices.</li>
+                  <li> Implement REST API.</li>
                   <li> Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</li>
                   <li> Design, develop, and implement database systems based on client requirements.</li>
-                  <li> Implement REST API.
                 </ul>
                 `,
         /* eslint-enable no-useless-escape */
         icon: 'mdi-web',
+      },
+      {
+        year       : '2021 - present',
+        transparent: true,
+        title      : 'PHP Developer',
+        /* eslint-disable no-useless-escape */
+        html       : `
+                <ul>
+                  <li> Determining the structure and design of web pages and ensuring user experience determines design choices.</li>
+                  <li> Designing user interactions on web pages.</li>
+                  <li> Implement REST API.</li>
+                  <li> Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</li>
+                  <li> Design, develop, and implement database systems based on client requirements.</li>
+                  <li> Self-directed and self-motivated with the ability to take charge or play a supporting role</li>
+                </ul>
+                `,
+        /* eslint-enable no-useless-escape */
+        icon: 'mdi-briefcase',
       },
     ],
   }),
