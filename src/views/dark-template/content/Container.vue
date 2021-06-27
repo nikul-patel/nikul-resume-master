@@ -241,7 +241,7 @@ export default {
     },
     downloadWithAxios (url, title) {
       axios({
-        method      : 'post',
+        method      : 'get',
         url,
         responseType: 'arraybuffer',
       }).then((response) => {
