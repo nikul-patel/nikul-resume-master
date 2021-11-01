@@ -95,7 +95,7 @@ export default {
             {
               name: 'Birth Date',
               icon: 'mdi-cake-variant',
-              text: 'June 1, 1996',
+              text: 'June 1',
             },
             {
               name: 'Address',
