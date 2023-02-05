@@ -7,8 +7,9 @@
       <content-section
         title="Who am I?"
       >
-        Hello, I'm Nikul Patel from Gujarat, India. I am very passionate and dedicated to my work. I'm a web developer, I'd love to take challenges and being part of the solutions.
-        Hands-on experience in analysis, development, and implementation. Solid programming expertise in PHP, JavaScript and also Object-Oriented concepts. Enthusiastic team player, fast learner with creative problem solving, and having good communication skills.
+        Hello! I am Nikul Patel, a web developer with over 3 years of experience in the industry. I specialize in using technologies such as PHP, Laravel, Codeigniter, React.js, Vue.js, Bootstrap, CSS, and HTML to create dynamic and user-friendly websites and applications.
+        I am passionate about developing clean and innovative solutions that meet the unique needs of my clients. I am also a dedicated professional who places a strong emphasis on communication and collaboration to ensure the best results for my clients.
+        Thank you for taking the time to visit my portfolio. I am excited to bring my skills and experience to your next project.
       </content-section>
       <content-section
         v-if="educations"
