@@ -177,9 +177,14 @@ export default {
         value: 85,
       },
       {
+        title: 'React.js',
+        icon : 'mdi-react',
+        value: 82,
+      },
+      {
         title: 'Vue.js Framework',
         icon : 'mdi-vuejs',
-        value: 82,
+        value: 50,
       },
       {
         title: 'CodeIgniter',
@@ -215,7 +220,7 @@ export default {
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-truck-fast',
-        value: 35,
+        value: 75,
       },
       {
         title: 'Git',
