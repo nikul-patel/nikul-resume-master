@@ -182,7 +182,7 @@ export default {
     sendMail: async function () {
       this.loading = true
       // in a real app, it would be better if the URL is extracted as a env variable
-      const url                               = 'https://nikul-contact-email.herokuapp.com/api/sendEmail'
+      const url                               = 'https://nikul-contact-email.glitch.me/api/sendEmail'
       const { name, email, message, subject } = this.contactFormData
       const payload                           = {
         name, email, message, subject,
